@@ -4,4 +4,4 @@ Esta prueba esta realizada con React.js [Create React App](https://github.com/fa
 
 ## Link Deploy
 
-[Aqui](https://aviatecnologia-angieherrera.netlify.app/)
+[Avia Tecnología](https://aviatecnologia-angieherrera.netlify.app/)
