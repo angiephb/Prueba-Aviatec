@@ -1,0 +1,113 @@
+.titlePackages {
+    position: absolute;
+    width: 406px;
+    height: 54px;
+    left: 114px;
+    top: 1351px;
+    font-family: PoppinsBold, sans-serif;
+    font-style: normal;
+    font-size: 36px;
+    color: #3D4142;
+}
+
+.containerImages {
+    position: absolute;
+    width: 581px;
+    height: 493px;
+    left: 208px;
+    top: 1460px;
+    background: rgba(0, 0, 0, 0.29);
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.containerImages img{
+    filter: brightness(0.8);
+}
+
+.containerMedium {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.containerSmall {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+
+.icons {
+    background: #ffffff;
+    color: #2578CD;
+    position: absolute;
+    width: 87px;
+    height: 37px;
+    left: 493px;
+    top: 50px;
+    border-radius: 5px 0px 0px 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+}
+
+.iconCart {
+    position: absolute;
+    left: 939px;
+}
+
+.iconMach {
+    position: absolute;
+    left: 714px;
+    top: 290px;
+}
+
+.iconBuen {
+    position: absolute;
+    left: 939px;
+    top: 290px;
+}
+
+
+
+.miami {
+    font-family: PoppinsNormal, sans-serif;
+    font-size: 18px;
+    position: absolute;
+    color: #ffffff;
+    left: 33px;
+    bottom: 44px;
+}
+
+.cartagena {
+    font-family: PoppinsNormal, sans-serif;
+    font-size: 18px;
+    position: absolute;
+    color: #ffffff;
+    right: -238px;
+    bottom: 255px;
+}
+
+.machu {
+    font-family: PoppinsNormal, sans-serif;
+    font-size: 18px;
+    position: absolute;
+    width: 129px;
+    height: 54px;
+    left: 618px;
+    top: 415px;
+    color: #FFFFFF;
+}
+
+.buenos {
+    font-family: PoppinsNormal, sans-serif;
+    font-size: 18px;
+    position: absolute;
+    color: #ffffff;
+    left: 839px;
+    top: 415px;
+    width: 129px;
+}

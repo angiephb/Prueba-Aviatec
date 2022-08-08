@@ -1,0 +1,220 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@font-face {
+  font-family: PoppinsNormal;
+  src: url(./fonts/Poppins-Regular.otf);
+}
+
+@font-face {
+  font-family: PoppinsBold;
+  src: url(./fonts/Poppins-Bold.otf);
+}
+
+@font-face {
+  font-family: PoppinsSemiBold;
+  src: url(./fonts/Poppins-SemiBold.otf);
+}
+
+.fa-plane-departure:before {
+  position: relative;
+  left: -9px;
+}
+
+.fa-hotel {
+  position: relative;
+  left: -9px;
+}
+
+.fa-car {
+  position: relative;
+  left: -9px;
+}
+
+.dropdown-menu.show {
+  display: block;
+  width: 445px;
+  height: 200px;
+  ;
+}
+
+
+.react-datepicker-wrapper {
+  width: 445px;
+}
+
+.react-datepicker-popper{
+  transform: translate(592.8px, 38.6px)!important;
+}
+.react-datepicker__month-container{
+  font-family: PoppinsNormal, sans-serif!important;
+}
+
+
+.fa-calendar-check{
+  position: relative;
+  left: 35px;
+  z-index: 1;
+  font-size: 22px;
+}
+.calendar{
+  position: relative;
+  left: -24px;
+  font-size: 16px;
+}
+
+.btn-secondary {
+  background: none;
+  color: #000000;
+  border: none;
+  width: 445px;
+  height: 46px;
+  /* border: 1px solid #D2D2D2; */
+  border-radius: 7px;
+  font-family: PoppinsNormal, sans-serif;
+  font-size: 14px;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-secondary:focus {
+  background: none;
+  color: #000000;
+}
+
+.btn-secondary:hover {
+  background: none;
+  color: #000000;
+}
+
+.fa-location-dot{
+  position: relative;
+  margin-right: 10px;
+  font-size: 22px;
+}
+
+/* cambios para slider */
+.slick-slide>div {
+  margin: 0 22.5px;
+}
+
+.slick-list {
+  margin: 0 -10px;
+}
+
+.slick-prev,
+.slick-next {
+  background: #ffffff;
+  width: 36px;
+  height: 36px;
+  border: 7px solid #ffffff;
+  border-radius: 50%;
+}
+
+.slick-next {
+  position: absolute;
+  top: 200px;
+  right: -5px;
+}
+
+.slick-next:before {
+  content: '→';
+  font-size: 36px;
+  position: absolute;
+  top: -5px;
+  left: -6.5px;
+  color: #2578CD;
+  opacity: 100;
+}
+
+.slick-prev {
+  position: absolute;
+  top: 200px;
+  left: -5px;
+  z-index: 1;
+}
+
+.slick-prev:before {
+  content: '←';
+  font-size: 36px;
+  position: absolute;
+  top: -5px;
+  left: -8px;
+  color: #2578CD;
+  opacity: 100;
+}
+
+/* footer */
+
+.location{
+ font-size: 16px;
+ color: #2477CA;
+}
+.fa-envelope{
+ font-size: 16px;
+ color: #2477CA;
+}
+.fa-phone{
+ font-size: 16px;
+ color: #2477CA;
+}
+.fa-whatsapp{
+  font-size: 16px;
+ color: #2477CA;
+}
+.fa-circle-question{
+  font-size: 16px;
+ color: #2477CA;
+}
+.fa-file-lines{
+  font-size: 16px;
+ color: #2477CA;
+}
+.fa-building{
+  font-size: 16px;
+ color: #2477CA;
+}
+.fa-circle-check{
+  font-size: 16px;
+  color: #2477CA;
+}
